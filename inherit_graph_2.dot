@@ -1,0 +1,7 @@
+digraph "Grafische Darstellung der Klassenhierarchie"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="CMPS11",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCMPS11.html",tooltip="CMPS11 sensor Klasse. Es kann nur ein Sensor (ein Objekt) pro Roboter verwendet werden. "];
+}

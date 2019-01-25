@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Goldboard4: Goldboard4 Version 2.2</title>
+<title>Goldboard4: goldboard/HC05.h-Dateireferenz</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -72,7 +72,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Suchen');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('index.html','');});
+$(document).ready(function(){initNavTree('HC05_8h.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -90,61 +90,57 @@ $(document).ready(function(){initNavTree('index.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#nested-classes">Klassen</a> &#124;
+<a href="#define-members">Makrodefinitionen</a>  </div>
   <div class="headertitle">
-<div class="title"><a class="el" href="classGoldboard4.html" title="Von dieser Klasse darf nur ein Objekt (gb) erstellt werden. Es bietet sich an dies global zu definier...">Goldboard4</a> Version 2.2 </div>  </div>
+<div class="title">HC05.h-Dateireferenz<div class="ingroups"><a class="el" href="group__external.html">Externe Komponenten</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h2>Hardware</h2>
-<p>Die Pins des Atmega32 sind am <a class="el" href="classGoldboard4.html" title="Von dieser Klasse darf nur ein Objekt (gb) erstellt werden. Es bietet sich an dies global zu definier...">Goldboard4</a> wie in der folgenden Grafik belegt. PAx, PBx, PCx, und PDx sind die Ports des AVR. ADCx sind die Analogpins der Goldboard lib. Dx sind die Digitalpins der Goldboard lib. Die Nummern stimmen mit der lib überein.</p>
-<div class="image">
-<img src="Pinbelegung.svg.png" alt="Pinbelegung.svg.png"/>
+
+<p>Bluetooth library for the RN42 firmware flashed on an <a class="el" href="classHC05.html" title="Bluetooth libs. ">HC05</a> module.  
+<a href="#details">Mehr ...</a></p>
+<div class="textblock"><code>#include &quot;<a class="el" href="Arduino_8h_source.html">Arduino.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include-Abhängigkeitsdiagramm für HC05.h:</div>
+<div class="dyncontent">
+<div class="center"><img src="HC05_8h__incl.png" border="0" usemap="#goldboard_2HC05_8h" alt=""/></div>
+<map name="goldboard_2HC05_8h" id="goldboard_2HC05_8h">
+</map>
 </div>
-<h2>Entwicklungsumgebung</h2>
-<ul>
-<li><a class="el" href="md_README_AS7.html">Atmel Studio 7 Anleitung</a> (<a href="https://github.com/teeheee/goldboard4/raw/master/goldboard4-V2.2-AS7-template.zip">Download AS7 Template</a>)</li>
-<li><a class="el" href="md_README_ATOM.html">Atom mit PlatformIO Anleitung</a> (<a href="https://github.com/teeheee/goldboard4/raw/master/goldboard4-V2.2-AtomPio-template.zip">Download Atom Template</a>)</li>
-<li><a class="el" href="md_README_MAKE.html">Makefile Anleitung</a></li>
-</ul>
-<h2>Windows Treiber</h2>
-<p>Normalerweise sollte der in Atmelstudio mitgelieferte Treiber ausreichen.</p>
-<ul>
-<li><a href="https://www.microchip.com/mplab/avr-support/atmel-studio-7">Atmelstudio 7</a></li>
-<li><a href="https://zadig.akeo.ie/">Zadig Treiber installations Tool</a></li>
-<li><a href="https://www.ftdichip.com/Drivers/VCP.htm">FTDI für Serialport</a></li>
-</ul>
-<h2>TODO</h2>
-<ul>
-<li>full test<ul>
-<li>~motors~</li>
-<li>servos</li>
-<li>~pwmpins~</li>
-<li>~digitalpins~</li>
-<li>~analogpins~</li>
-<li>~buttons~</li>
-<li>~leds~</li>
-<li>robot-&gt;bluetooth-&gt;pc</li>
-<li>robot-&gt;bluetooth-&gt;robot</li>
-<li>~power pins~</li>
-<li><a class="el" href="classCMPS11.html" title="CMPS11 sensor Klasse. Es kann nur ein Sensor (ein Objekt) pro Roboter verwendet werden. ">CMPS11</a></li>
-<li>~CMPS03~</li>
-<li>~SRF08~</li>
-<li>SRF10</li>
-<li><a class="el" href="classVL53L0X.html">VL53L0X</a></li>
-<li>~pixy~</li>
-<li>~usring~</li>
-<li>~lcd~</li>
-</ul>
-</li>
-<li>make clean doxygen comments</li>
-<li>upgrade servo PWM to every pin</li>
-<li>check race condition on interrupts</li>
-<li>add i2c hang up recovery </li>
-</ul>
+</div>
+<p><a href="HC05_8h_source.html">gehe zum Quellcode dieser Datei</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Klassen</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHC05.html">HC05</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bluetooth libs.  <a href="classHC05.html#details">Mehr ...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Makrodefinitionen</h2></td></tr>
+<tr class="memitem:a9c3c45d4755f21a87dca40803446e820"><td class="memItemLeft" align="right" valign="top"><a id="a9c3c45d4755f21a87dca40803446e820"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HC05_MASTER</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:a9c3c45d4755f21a87dca40803446e820"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba532f59ea0649eea93596bee2118531"><td class="memItemLeft" align="right" valign="top"><a id="aba532f59ea0649eea93596bee2118531"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HC05_SLAVE</b>&#160;&#160;&#160;2</td></tr>
+<tr class="separator:aba532f59ea0649eea93596bee2118531"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4660d670c671bc54fc8019cdbd5076a0"><td class="memItemLeft" align="right" valign="top"><a id="a4660d670c671bc54fc8019cdbd5076a0"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HC05_TIMEOUT</b>&#160;&#160;&#160;10</td></tr>
+<tr class="separator:a4660d670c671bc54fc8019cdbd5076a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Ausführliche Beschreibung</h2>
+<div class="textblock"><p>Bluetooth library for the RN42 firmware flashed on an <a class="el" href="classHC05.html" title="Bluetooth libs. ">HC05</a> module. </p>
+<hr/>
+ <dl class="section author"><dt>Autor</dt><dd>2018 Alexander Ulbrich <h2><a href="#" onclick="location.href='mai'+'lto:'+'ale'+'xa'+'nde'+'r.'+'ulb'+'ri'+'ch@'+'un'+'i-u'+'lm'+'.de'; return false;">alexa<span style="display: none;">.nosp@m.</span>nder<span style="display: none;">.nosp@m.</span>.ulbr<span style="display: none;">.nosp@m.</span>ich@<span style="display: none;">.nosp@m.</span>uni-u<span style="display: none;">.nosp@m.</span>lm.d<span style="display: none;">.nosp@m.</span>e</a> </h2>
+</dd></dl>
+<p>0.1 30.01.2018 not Tested</p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="dir_efa29dcec2bc511dcc4741916090d0cb.html">goldboard</a></li><li class="navelem"><a class="el" href="HC05_8h.html">HC05.h</a></li>
     <li class="footer">Erzeugt von
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

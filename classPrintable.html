@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Goldboard4: Goldboard4 Version 2.2</title>
+<title>Goldboard4: Printable Klassenreferenz</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -72,7 +72,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Suchen');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('index.html','');});
+$(document).ready(function(){initNavTree('classPrintable.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -90,61 +90,33 @@ $(document).ready(function(){initNavTree('index.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Öffentliche Methoden</a> &#124;
+<a href="classPrintable-members.html">Aufstellung aller Elemente</a>  </div>
   <div class="headertitle">
-<div class="title"><a class="el" href="classGoldboard4.html" title="Von dieser Klasse darf nur ein Objekt (gb) erstellt werden. Es bietet sich an dies global zu definier...">Goldboard4</a> Version 2.2 </div>  </div>
+<div class="title">Printable Klassenreferenz<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h2>Hardware</h2>
-<p>Die Pins des Atmega32 sind am <a class="el" href="classGoldboard4.html" title="Von dieser Klasse darf nur ein Objekt (gb) erstellt werden. Es bietet sich an dies global zu definier...">Goldboard4</a> wie in der folgenden Grafik belegt. PAx, PBx, PCx, und PDx sind die Ports des AVR. ADCx sind die Analogpins der Goldboard lib. Dx sind die Digitalpins der Goldboard lib. Die Nummern stimmen mit der lib überein.</p>
-<div class="image">
-<img src="Pinbelegung.svg.png" alt="Pinbelegung.svg.png"/>
-</div>
-<h2>Entwicklungsumgebung</h2>
-<ul>
-<li><a class="el" href="md_README_AS7.html">Atmel Studio 7 Anleitung</a> (<a href="https://github.com/teeheee/goldboard4/raw/master/goldboard4-V2.2-AS7-template.zip">Download AS7 Template</a>)</li>
-<li><a class="el" href="md_README_ATOM.html">Atom mit PlatformIO Anleitung</a> (<a href="https://github.com/teeheee/goldboard4/raw/master/goldboard4-V2.2-AtomPio-template.zip">Download Atom Template</a>)</li>
-<li><a class="el" href="md_README_MAKE.html">Makefile Anleitung</a></li>
+
+<p><code>#include &lt;<a class="el" href="Printable_8h_source.html">Printable.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Öffentliche Methoden</h2></td></tr>
+<tr class="memitem:a2c5776bc55c0a3a5675bba9d4d8e3681"><td class="memItemLeft" align="right" valign="top"><a id="a2c5776bc55c0a3a5675bba9d4d8e3681"></a>
+virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><b>printTo</b> (<a class="el" href="classPrint.html">Print</a> &amp;p) const =0</td></tr>
+<tr class="separator:a2c5776bc55c0a3a5675bba9d4d8e3681"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Ausführliche Beschreibung</h2>
+<div class="textblock"><p>The <a class="el" href="classPrintable.html">Printable</a> class provides a way for new classes to allow themselves to be printed. By deriving from <a class="el" href="classPrintable.html">Printable</a> and implementing the printTo method, it will then be possible for users to print out instances of this class by passing them into the usual Print::print and Print::println methods. </p>
+</div><hr/>Die Dokumentation für diese Klasse wurde erzeugt aufgrund der Datei:<ul>
+<li>goldboard/<a class="el" href="Printable_8h_source.html">Printable.h</a></li>
 </ul>
-<h2>Windows Treiber</h2>
-<p>Normalerweise sollte der in Atmelstudio mitgelieferte Treiber ausreichen.</p>
-<ul>
-<li><a href="https://www.microchip.com/mplab/avr-support/atmel-studio-7">Atmelstudio 7</a></li>
-<li><a href="https://zadig.akeo.ie/">Zadig Treiber installations Tool</a></li>
-<li><a href="https://www.ftdichip.com/Drivers/VCP.htm">FTDI für Serialport</a></li>
-</ul>
-<h2>TODO</h2>
-<ul>
-<li>full test<ul>
-<li>~motors~</li>
-<li>servos</li>
-<li>~pwmpins~</li>
-<li>~digitalpins~</li>
-<li>~analogpins~</li>
-<li>~buttons~</li>
-<li>~leds~</li>
-<li>robot-&gt;bluetooth-&gt;pc</li>
-<li>robot-&gt;bluetooth-&gt;robot</li>
-<li>~power pins~</li>
-<li><a class="el" href="classCMPS11.html" title="CMPS11 sensor Klasse. Es kann nur ein Sensor (ein Objekt) pro Roboter verwendet werden. ">CMPS11</a></li>
-<li>~CMPS03~</li>
-<li>~SRF08~</li>
-<li>SRF10</li>
-<li><a class="el" href="classVL53L0X.html">VL53L0X</a></li>
-<li>~pixy~</li>
-<li>~usring~</li>
-<li>~lcd~</li>
-</ul>
-</li>
-<li>make clean doxygen comments</li>
-<li>upgrade servo PWM to every pin</li>
-<li>check race condition on interrupts</li>
-<li>add i2c hang up recovery </li>
-</ul>
-</div></div><!-- contents -->
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="classPrintable.html">Printable</a></li>
     <li class="footer">Erzeugt von
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

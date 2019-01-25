@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Goldboard4: Goldboard4 Version 2.2</title>
+<title>Goldboard4: Erklärung des Graphen</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -72,7 +72,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Suchen');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('index.html','');});
+$(document).ready(function(){initNavTree('graph_legend.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -91,56 +91,39 @@ $(document).ready(function(){initNavTree('index.html','');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title"><a class="el" href="classGoldboard4.html" title="Von dieser Klasse darf nur ein Objekt (gb) erstellt werden. Es bietet sich an dies global zu definier...">Goldboard4</a> Version 2.2 </div>  </div>
+<div class="title">Erklärung des Graphen</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h2>Hardware</h2>
-<p>Die Pins des Atmega32 sind am <a class="el" href="classGoldboard4.html" title="Von dieser Klasse darf nur ein Objekt (gb) erstellt werden. Es bietet sich an dies global zu definier...">Goldboard4</a> wie in der folgenden Grafik belegt. PAx, PBx, PCx, und PDx sind die Ports des AVR. ADCx sind die Analogpins der Goldboard lib. Dx sind die Digitalpins der Goldboard lib. Die Nummern stimmen mit der lib überein.</p>
-<div class="image">
-<img src="Pinbelegung.svg.png" alt="Pinbelegung.svg.png"/>
+<p>Diese Seite erklärt die Interpretation der von doxygen erzeugten Graphen.</p>
+<p>Beispiel: </p><div class="fragment"><div class="line">/*! Wegen Verkürzung unsichtbare Klasse */</div><div class="line">class Invisible { };</div><div class="line"></div><div class="line">/*! Klasse verkürzt dargestellt, Vererbungsbeziehung ist versteckt */</div><div class="line">class Truncated : public Invisible { };</div><div class="line"></div><div class="line">/* Nicht mit doxygen-Kommentaren dokumentierte Klasse */</div><div class="line">class Undocumented { };</div><div class="line"></div><div class="line">/*! Mithilfe öffentlicher Vererbung vererbte Klasse */</div><div class="line">class PublicBase : public Truncated { };</div><div class="line"></div><div class="line">/*! Eine Template-Klasse */</div><div class="line">template&lt;class T&gt; class Templ { };</div><div class="line"></div><div class="line">/*! Mithilfe geschützter Vererbung vererbte Klasse */</div><div class="line">class ProtectedBase { };</div><div class="line"></div><div class="line">/*! Mithilfe privater Vererbung vererbte Klasse */</div><div class="line">class PrivateBase { };</div><div class="line"></div><div class="line">/*! Von der Klasse Inherited benutzte Klasse */</div><div class="line">class Used { };</div><div class="line"></div><div class="line">/*! Superklasse, die von mehreren anderen Klassen erbt */</div><div class="line">class Inherited : public PublicBase,</div><div class="line">                  protected ProtectedBase,</div><div class="line">                  private PrivateBase,</div><div class="line">                  public Undocumented,</div><div class="line">                  public Templ&lt;int&gt;</div><div class="line">{</div><div class="line">  private:</div><div class="line">    Used *m_usedClass;</div><div class="line">};</div></div><!-- fragment --><p> Dies liefert den folgenden Graphen:</p>
+<center><div class="image">
+<img src="graph_legend.png"/>
 </div>
-<h2>Entwicklungsumgebung</h2>
+</center><p>Die Rechtecke in obigem Graphen bedeuten: </p>
 <ul>
-<li><a class="el" href="md_README_AS7.html">Atmel Studio 7 Anleitung</a> (<a href="https://github.com/teeheee/goldboard4/raw/master/goldboard4-V2.2-AS7-template.zip">Download AS7 Template</a>)</li>
-<li><a class="el" href="md_README_ATOM.html">Atom mit PlatformIO Anleitung</a> (<a href="https://github.com/teeheee/goldboard4/raw/master/goldboard4-V2.2-AtomPio-template.zip">Download Atom Template</a>)</li>
-<li><a class="el" href="md_README_MAKE.html">Makefile Anleitung</a></li>
+<li>
+Ein grau gefülltes Rechteck stellt die Struktur oder Klasse dar, für die der Graph erzeugt wurde. </li>
+<li>
+Ein Rechteck mit schwarzem Rahmen kennzeichnet eine dokumentierte Struktur oder Klasse. </li>
+<li>
+Ein Rechteck mit grauem Rahmen kennzeichnet eine undokumentierte Struktur oder Klasse. </li>
+<li>
+Ein Rechteck mit rotem Rahmen kennzeichnet eine dokumentierte Struktur oder Klasse, für die nicht alle Vererbungs-/Enthaltenseinsbeziehungen dargestellt werden. Ein Graph wird gekürzt, wenn er nicht in die angegebenen Schranken passt. </li>
 </ul>
-<h2>Windows Treiber</h2>
-<p>Normalerweise sollte der in Atmelstudio mitgelieferte Treiber ausreichen.</p>
+<p>Die Pfeile bedeuten: </p>
 <ul>
-<li><a href="https://www.microchip.com/mplab/avr-support/atmel-studio-7">Atmelstudio 7</a></li>
-<li><a href="https://zadig.akeo.ie/">Zadig Treiber installations Tool</a></li>
-<li><a href="https://www.ftdichip.com/Drivers/VCP.htm">FTDI für Serialport</a></li>
+<li>
+Ein dunkelblauer Pfeil stellt eine öffentliche Vererbungsbeziehung zwischen zwei Klassen dar. </li>
+<li>
+Ein dunkelgrüner Pfeil stellt geschützte Vererbung dar. </li>
+<li>
+Ein dunkelroter Pfeil stellt private Vererbung dar. </li>
+<li>
+Ein gestrichelter violetter Pfeil bedeutet, dass eine Klasse in einer anderen enthalten ist oder von einer anderen benutzt wird. Am Pfeil stehen die Variable(n), mit deren Hilfe auf die Struktur oder Klasse an der Pfeilspitze zugegriffen werden kann. </li>
+<li>
+Ein gestrichelter gelber Pfeil kennzeichnet eine Verknüpfung zwischen einer Template-Instanz und der Template-Klasse von welcher es abstammt. Neben dem Pfeil sind die Template-Parameter aufgeführt. </li>
 </ul>
-<h2>TODO</h2>
-<ul>
-<li>full test<ul>
-<li>~motors~</li>
-<li>servos</li>
-<li>~pwmpins~</li>
-<li>~digitalpins~</li>
-<li>~analogpins~</li>
-<li>~buttons~</li>
-<li>~leds~</li>
-<li>robot-&gt;bluetooth-&gt;pc</li>
-<li>robot-&gt;bluetooth-&gt;robot</li>
-<li>~power pins~</li>
-<li><a class="el" href="classCMPS11.html" title="CMPS11 sensor Klasse. Es kann nur ein Sensor (ein Objekt) pro Roboter verwendet werden. ">CMPS11</a></li>
-<li>~CMPS03~</li>
-<li>~SRF08~</li>
-<li>SRF10</li>
-<li><a class="el" href="classVL53L0X.html">VL53L0X</a></li>
-<li>~pixy~</li>
-<li>~usring~</li>
-<li>~lcd~</li>
-</ul>
-</li>
-<li>make clean doxygen comments</li>
-<li>upgrade servo PWM to every pin</li>
-<li>check race condition on interrupts</li>
-<li>add i2c hang up recovery </li>
-</ul>
-</div></div><!-- contents -->
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

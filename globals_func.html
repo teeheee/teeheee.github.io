@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Goldboard4: Goldboard4 Version 2.2</title>
+<title>Goldboard4: Datei-Elemente</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -72,7 +72,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Suchen');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('index.html','');});
+$(document).ready(function(){initNavTree('globals_func.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,58 +89,52 @@ $(document).ready(function(){initNavTree('index.html','');});
 </iframe>
 </div>
 
-<div class="header">
-  <div class="headertitle">
-<div class="title"><a class="el" href="classGoldboard4.html" title="Von dieser Klasse darf nur ein Objekt (gb) erstellt werden. Es bietet sich an dies global zu definier...">Goldboard4</a> Version 2.2 </div>  </div>
-</div><!--header-->
 <div class="contents">
-<div class="textblock"><h2>Hardware</h2>
-<p>Die Pins des Atmega32 sind am <a class="el" href="classGoldboard4.html" title="Von dieser Klasse darf nur ein Objekt (gb) erstellt werden. Es bietet sich an dies global zu definier...">Goldboard4</a> wie in der folgenden Grafik belegt. PAx, PBx, PCx, und PDx sind die Ports des AVR. ADCx sind die Analogpins der Goldboard lib. Dx sind die Digitalpins der Goldboard lib. Die Nummern stimmen mit der lib überein.</p>
-<div class="image">
-<img src="Pinbelegung.svg.png" alt="Pinbelegung.svg.png"/>
-</div>
-<h2>Entwicklungsumgebung</h2>
-<ul>
-<li><a class="el" href="md_README_AS7.html">Atmel Studio 7 Anleitung</a> (<a href="https://github.com/teeheee/goldboard4/raw/master/goldboard4-V2.2-AS7-template.zip">Download AS7 Template</a>)</li>
-<li><a class="el" href="md_README_ATOM.html">Atom mit PlatformIO Anleitung</a> (<a href="https://github.com/teeheee/goldboard4/raw/master/goldboard4-V2.2-AtomPio-template.zip">Download Atom Template</a>)</li>
-<li><a class="el" href="md_README_MAKE.html">Makefile Anleitung</a></li>
-</ul>
-<h2>Windows Treiber</h2>
-<p>Normalerweise sollte der in Atmelstudio mitgelieferte Treiber ausreichen.</p>
-<ul>
-<li><a href="https://www.microchip.com/mplab/avr-support/atmel-studio-7">Atmelstudio 7</a></li>
-<li><a href="https://zadig.akeo.ie/">Zadig Treiber installations Tool</a></li>
-<li><a href="https://www.ftdichip.com/Drivers/VCP.htm">FTDI für Serialport</a></li>
-</ul>
-<h2>TODO</h2>
-<ul>
-<li>full test<ul>
-<li>~motors~</li>
-<li>servos</li>
-<li>~pwmpins~</li>
-<li>~digitalpins~</li>
-<li>~analogpins~</li>
-<li>~buttons~</li>
-<li>~leds~</li>
-<li>robot-&gt;bluetooth-&gt;pc</li>
-<li>robot-&gt;bluetooth-&gt;robot</li>
-<li>~power pins~</li>
-<li><a class="el" href="classCMPS11.html" title="CMPS11 sensor Klasse. Es kann nur ein Sensor (ein Objekt) pro Roboter verwendet werden. ">CMPS11</a></li>
-<li>~CMPS03~</li>
-<li>~SRF08~</li>
-<li>SRF10</li>
-<li><a class="el" href="classVL53L0X.html">VL53L0X</a></li>
-<li>~pixy~</li>
-<li>~usring~</li>
-<li>~lcd~</li>
-</ul>
+&#160;<ul>
+<li>delay()
+: <a class="el" href="group__zf.html#ga1cd80e5918a15214a0368ee8ec281323">time.h</a>
 </li>
-<li>make clean doxygen comments</li>
-<li>upgrade servo PWM to every pin</li>
-<li>check race condition on interrupts</li>
-<li>add i2c hang up recovery </li>
+<li>delayMicroseconds()
+: <a class="el" href="group__zf.html#ga49b70966bdb9dd1b0dafa21ad2c721e4">time.h</a>
+</li>
+<li>millis()
+: <a class="el" href="group__zf.html#ga3f5c9354523a5e9fa209b0a56dc22fcc">time.h</a>
+</li>
+<li>motor_isr()
+: <a class="el" href="Motor_8h.html#a6495a3335c241078257115f5f04a14ed">Motor.h</a>
+</li>
+<li>uart1_getc()
+: <a class="el" href="uart_8h.html#aeb1405c641e5bc9b7224018f5e8d90de">uart.h</a>
+</li>
+<li>uart1_init()
+: <a class="el" href="uart_8h.html#a4db697cb5469fd70e794fa7df73a6d6a">uart.h</a>
+</li>
+<li>uart1_putc()
+: <a class="el" href="uart_8h.html#ab465f689d197fadfbacc374fc9411154">uart.h</a>
+</li>
+<li>uart1_puts()
+: <a class="el" href="uart_8h.html#a5568f8f3913b218fd4d0346af78831b2">uart.h</a>
+</li>
+<li>uart1_puts_p()
+: <a class="el" href="uart_8h.html#a1e8074d0a2d5922601c5db2f9777ba79">uart.h</a>
+</li>
+<li>uart_getc()
+: <a class="el" href="uart_8h.html#aefaab30a8338ec46a6be35b99b1b4f09">uart.h</a>
+</li>
+<li>uart_init()
+: <a class="el" href="uart_8h.html#ac19a76bb7d446125734a67f9f4b68991">uart.h</a>
+</li>
+<li>uart_putc()
+: <a class="el" href="uart_8h.html#ad975221bc08b901e4c7ad69f9c9a97e2">uart.h</a>
+</li>
+<li>uart_puts()
+: <a class="el" href="uart_8h.html#ae52facc0a56086a365bb0018160d8d71">uart.h</a>
+</li>
+<li>uart_puts_p()
+: <a class="el" href="uart_8h.html#a6d78b6744db6232f52b4616402036c2f">uart.h</a>
+</li>
 </ul>
-</div></div><!-- contents -->
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

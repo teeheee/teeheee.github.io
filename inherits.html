@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Goldboard4: Goldboard4 Version 2.2</title>
+<title>Goldboard4: Klassenhierarchie</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -72,7 +72,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Suchen');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('index.html','');});
+$(document).ready(function(){initNavTree('hierarchy.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -91,56 +91,102 @@ $(document).ready(function(){initNavTree('index.html','');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title"><a class="el" href="classGoldboard4.html" title="Von dieser Klasse darf nur ein Objekt (gb) erstellt werden. Es bietet sich an dies global zu definier...">Goldboard4</a> Version 2.2 </div>  </div>
+<div class="title">Klassenhierarchie</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h2>Hardware</h2>
-<p>Die Pins des Atmega32 sind am <a class="el" href="classGoldboard4.html" title="Von dieser Klasse darf nur ein Objekt (gb) erstellt werden. Es bietet sich an dies global zu definier...">Goldboard4</a> wie in der folgenden Grafik belegt. PAx, PBx, PCx, und PDx sind die Ports des AVR. ADCx sind die Analogpins der Goldboard lib. Dx sind die Digitalpins der Goldboard lib. Die Nummern stimmen mit der lib überein.</p>
-<div class="image">
-<img src="Pinbelegung.svg.png" alt="Pinbelegung.svg.png"/>
-</div>
-<h2>Entwicklungsumgebung</h2>
-<ul>
-<li><a class="el" href="md_README_AS7.html">Atmel Studio 7 Anleitung</a> (<a href="https://github.com/teeheee/goldboard4/raw/master/goldboard4-V2.2-AS7-template.zip">Download AS7 Template</a>)</li>
-<li><a class="el" href="md_README_ATOM.html">Atom mit PlatformIO Anleitung</a> (<a href="https://github.com/teeheee/goldboard4/raw/master/goldboard4-V2.2-AtomPio-template.zip">Download Atom Template</a>)</li>
-<li><a class="el" href="md_README_MAKE.html">Makefile Anleitung</a></li>
-</ul>
-<h2>Windows Treiber</h2>
-<p>Normalerweise sollte der in Atmelstudio mitgelieferte Treiber ausreichen.</p>
-<ul>
-<li><a href="https://www.microchip.com/mplab/avr-support/atmel-studio-7">Atmelstudio 7</a></li>
-<li><a href="https://zadig.akeo.ie/">Zadig Treiber installations Tool</a></li>
-<li><a href="https://www.ftdichip.com/Drivers/VCP.htm">FTDI für Serialport</a></li>
-</ul>
-<h2>TODO</h2>
-<ul>
-<li>full test<ul>
-<li>~motors~</li>
-<li>servos</li>
-<li>~pwmpins~</li>
-<li>~digitalpins~</li>
-<li>~analogpins~</li>
-<li>~buttons~</li>
-<li>~leds~</li>
-<li>robot-&gt;bluetooth-&gt;pc</li>
-<li>robot-&gt;bluetooth-&gt;robot</li>
-<li>~power pins~</li>
-<li><a class="el" href="classCMPS11.html" title="CMPS11 sensor Klasse. Es kann nur ein Sensor (ein Objekt) pro Roboter verwendet werden. ">CMPS11</a></li>
-<li>~CMPS03~</li>
-<li>~SRF08~</li>
-<li>SRF10</li>
-<li><a class="el" href="classVL53L0X.html">VL53L0X</a></li>
-<li>~pixy~</li>
-<li>~usring~</li>
-<li>~lcd~</li>
-</ul>
-</li>
-<li>make clean doxygen comments</li>
-<li>upgrade servo PWM to every pin</li>
-<li>check race condition on interrupts</li>
-<li>add i2c hang up recovery </li>
-</ul>
-</div></div><!-- contents -->
+<div class="textblock">
+<p><a href="hierarchy.html">gehe zur textbasierten Darstellung der Klassenhierarchie</a></p>
+</div><table border="0" cellspacing="10" cellpadding="0">
+<tr><td><img src="inherit_graph_0.png" border="0" alt="" usemap="#Block"/>
+<map name="Block" id="Block">
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_1.png" border="0" alt="" usemap="#CMPS03"/>
+<map name="CMPS03" id="CMPS03">
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_2.png" border="0" alt="" usemap="#CMPS11"/>
+<map name="CMPS11" id="CMPS11">
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_3.png" border="0" alt="" usemap="#EEPROMClass"/>
+<map name="EEPROMClass" id="EEPROMClass">
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_4.png" border="0" alt="" usemap="#EEPtr"/>
+<map name="EEPtr" id="EEPtr">
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_5.png" border="0" alt="" usemap="#EERef"/>
+<map name="EERef" id="EERef">
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_6.png" border="0" alt="" usemap="#Goldboard4"/>
+<map name="Goldboard4" id="Goldboard4">
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_7.png" border="0" alt="" usemap="#HC05"/>
+<map name="HC05" id="HC05">
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_8.png" border="0" alt="" usemap="#LinkI2C"/>
+<map name="LinkI2C" id="LinkI2C">
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_9.png" border="0" alt="" usemap="#LSM303"/>
+<map name="LSM303" id="LSM303">
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_10.png" border="0" alt="" usemap="#LSM303_1_1vector_3_01int16__t_01_4"/>
+<map name="LSM303_1_1vector_3_01int16__t_01_4" id="LSM303_1_1vector_3_01int16__t_01_4">
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_11.png" border="0" alt="" usemap="#LSM303_1_1vector_3_01T_01_4"/>
+<map name="LSM303_1_1vector_3_01T_01_4" id="LSM303_1_1vector_3_01T_01_4">
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_12.png" border="0" alt="" usemap="#Motor"/>
+<map name="Motor" id="Motor">
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_13.png" border="0" alt="" usemap="#PCF8574A"/>
+<map name="PCF8574A" id="PCF8574A">
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_14.png" border="0" alt="" usemap="#Print"/>
+<map name="Print" id="Print">
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_15.png" border="0" alt="" usemap="#Printable"/>
+<map name="Printable" id="Printable">
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_16.png" border="0" alt="" usemap="#SonarSRF"/>
+<map name="SonarSRF" id="SonarSRF">
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_17.png" border="0" alt="" usemap="#SRF08"/>
+<map name="SRF08" id="SRF08">
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_18.png" border="0" alt="" usemap="#TPixy_3_01LinkType_01_4"/>
+<map name="TPixy_3_01LinkType_01_4" id="TPixy_3_01LinkType_01_4">
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_19.png" border="0" alt="" usemap="#TwoWire"/>
+<map name="TwoWire" id="TwoWire">
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_20.png" border="0" alt="" usemap="#usring"/>
+<map name="usring" id="usring">
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_21.png" border="0" alt="" usemap="#VL53L0X"/>
+<map name="VL53L0X" id="VL53L0X">
+</map>
+</td></tr>
+</table>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Goldboard4: Goldboard4 Version 2.2</title>
+<title>Goldboard4: Datei-Elemente</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -72,7 +72,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Suchen');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('index.html','');});
+$(document).ready(function(){initNavTree('globals_defs.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -89,58 +89,46 @@ $(document).ready(function(){initNavTree('index.html','');});
 </iframe>
 </div>
 
-<div class="header">
-  <div class="headertitle">
-<div class="title"><a class="el" href="classGoldboard4.html" title="Von dieser Klasse darf nur ein Objekt (gb) erstellt werden. Es bietet sich an dies global zu definier...">Goldboard4</a> Version 2.2 </div>  </div>
-</div><!--header-->
 <div class="contents">
-<div class="textblock"><h2>Hardware</h2>
-<p>Die Pins des Atmega32 sind am <a class="el" href="classGoldboard4.html" title="Von dieser Klasse darf nur ein Objekt (gb) erstellt werden. Es bietet sich an dies global zu definier...">Goldboard4</a> wie in der folgenden Grafik belegt. PAx, PBx, PCx, und PDx sind die Ports des AVR. ADCx sind die Analogpins der Goldboard lib. Dx sind die Digitalpins der Goldboard lib. Die Nummern stimmen mit der lib überein.</p>
-<div class="image">
-<img src="Pinbelegung.svg.png" alt="Pinbelegung.svg.png"/>
-</div>
-<h2>Entwicklungsumgebung</h2>
-<ul>
-<li><a class="el" href="md_README_AS7.html">Atmel Studio 7 Anleitung</a> (<a href="https://github.com/teeheee/goldboard4/raw/master/goldboard4-V2.2-AS7-template.zip">Download AS7 Template</a>)</li>
-<li><a class="el" href="md_README_ATOM.html">Atom mit PlatformIO Anleitung</a> (<a href="https://github.com/teeheee/goldboard4/raw/master/goldboard4-V2.2-AtomPio-template.zip">Download Atom Template</a>)</li>
-<li><a class="el" href="md_README_MAKE.html">Makefile Anleitung</a></li>
-</ul>
-<h2>Windows Treiber</h2>
-<p>Normalerweise sollte der in Atmelstudio mitgelieferte Treiber ausreichen.</p>
-<ul>
-<li><a href="https://www.microchip.com/mplab/avr-support/atmel-studio-7">Atmelstudio 7</a></li>
-<li><a href="https://zadig.akeo.ie/">Zadig Treiber installations Tool</a></li>
-<li><a href="https://www.ftdichip.com/Drivers/VCP.htm">FTDI für Serialport</a></li>
-</ul>
-<h2>TODO</h2>
-<ul>
-<li>full test<ul>
-<li>~motors~</li>
-<li>servos</li>
-<li>~pwmpins~</li>
-<li>~digitalpins~</li>
-<li>~analogpins~</li>
-<li>~buttons~</li>
-<li>~leds~</li>
-<li>robot-&gt;bluetooth-&gt;pc</li>
-<li>robot-&gt;bluetooth-&gt;robot</li>
-<li>~power pins~</li>
-<li><a class="el" href="classCMPS11.html" title="CMPS11 sensor Klasse. Es kann nur ein Sensor (ein Objekt) pro Roboter verwendet werden. ">CMPS11</a></li>
-<li>~CMPS03~</li>
-<li>~SRF08~</li>
-<li>SRF10</li>
-<li><a class="el" href="classVL53L0X.html">VL53L0X</a></li>
-<li>~pixy~</li>
-<li>~usring~</li>
-<li>~lcd~</li>
-</ul>
+&#160;<ul>
+<li>CMPS11_I2C_ADDR
+: <a class="el" href="CMPS11_8h.html#a8887e0e52580a69e715bf27fc22cb362">CMPS11.h</a>
 </li>
-<li>make clean doxygen comments</li>
-<li>upgrade servo PWM to every pin</li>
-<li>check race condition on interrupts</li>
-<li>add i2c hang up recovery </li>
+<li>MOTORCOUNT
+: <a class="el" href="pin__configuration_8h.html#a1a2c496f8bb7dbb5f1dfef5c32624a6d">pin_configuration.h</a>
+</li>
+<li>PULSECOUNT
+: <a class="el" href="pin__configuration_8h.html#a73a3dae311294f39427fea69b235334b">pin_configuration.h</a>
+</li>
+<li>SERIAL_PRINT
+: <a class="el" href="group__zf.html#ga768100756af6f88f895e5ac435eb0c9b">Goldboard4.h</a>
+</li>
+<li>SERIAL_PRINTLN
+: <a class="el" href="group__zf.html#ga2b919c89c25c94264b663797b03a5e53">Goldboard4.h</a>
+</li>
+<li>uart1_puts_P
+: <a class="el" href="uart_8h.html#aabd7a5b0c15611ee9ecb2873cc9ee87a">uart.h</a>
+</li>
+<li>UART_BAUD_SELECT
+: <a class="el" href="uart_8h.html#a367ff7b5de225ed936a63239ad4adb0b">uart.h</a>
+</li>
+<li>UART_BAUD_SELECT_DOUBLE_SPEED
+: <a class="el" href="uart_8h.html#a1a02d45130520cb651ab313e69039382">uart.h</a>
+</li>
+<li>uart_puts_P
+: <a class="el" href="uart_8h.html#ae9e143569df2285379bc55f9f5595bf9">uart.h</a>
+</li>
+<li>UART_RX_BUFFER_SIZE
+: <a class="el" href="uart_8h.html#a5bdd6772c246436bb14377095de79b31">uart.h</a>
+</li>
+<li>UART_TX_BUFFER_SIZE
+: <a class="el" href="uart_8h.html#a05f5d709605c6317c97e4974bec3402a">uart.h</a>
+</li>
+<li>USRING_I2C_ADDR
+: <a class="el" href="usring_8h.html#ae5a586dd27d78b2c6910a47812dd66be">usring.h</a>
+</li>
 </ul>
-</div></div><!-- contents -->
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

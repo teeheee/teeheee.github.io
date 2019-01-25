@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Goldboard4: Goldboard4 Version 2.2</title>
+<title>Goldboard4: Atmelstudio 7</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -72,7 +72,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Suchen');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('index.html','');});
+$(document).ready(function(){initNavTree('md_README_AS7.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -91,55 +91,51 @@ $(document).ready(function(){initNavTree('index.html','');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title"><a class="el" href="classGoldboard4.html" title="Von dieser Klasse darf nur ein Objekt (gb) erstellt werden. Es bietet sich an dies global zu definier...">Goldboard4</a> Version 2.2 </div>  </div>
+<div class="title">Atmelstudio 7 </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h2>Hardware</h2>
-<p>Die Pins des Atmega32 sind am <a class="el" href="classGoldboard4.html" title="Von dieser Klasse darf nur ein Objekt (gb) erstellt werden. Es bietet sich an dies global zu definier...">Goldboard4</a> wie in der folgenden Grafik belegt. PAx, PBx, PCx, und PDx sind die Ports des AVR. ADCx sind die Analogpins der Goldboard lib. Dx sind die Digitalpins der Goldboard lib. Die Nummern stimmen mit der lib überein.</p>
-<div class="image">
-<img src="Pinbelegung.svg.png" alt="Pinbelegung.svg.png"/>
+<div class="textblock"><p>Vorraussetzung für die folgenden Schritte ist eine erfolgreiche installation von Atmelstudio 7.</p>
+<h2>Template importieren</h2>
+<p>Das <a href="https://github.com/teeheee/goldboard4/raw/master/goldboard4-2.1-AS7-template.zip">Atmelstudio 7 Template</a> muss als erstes heruntergeladene werden und in den Template Ordner eurer Atmelstudio installation importiert werden. </p><div class="image">
+<img src="projekt_template_importieren.png" alt="projekt_template_importieren.png"/>
 </div>
-<h2>Entwicklungsumgebung</h2>
+<p> Hier müsst ihr das heruntergeladene Template auswählen. </p><div class="image">
+<img src="projekt_template_importieren_2.png" alt="projekt_template_importieren_2.png"/>
+</div>
+<h2>Projekt erstellen</h2>
+<p>Um ein Porjekt zu erstellen geht ihr wie gewohnt vor. </p><div class="image">
+<img src="projekt_erstellen.png" alt="projekt_erstellen.png"/>
+</div>
+<p> Vergesst nicht den Namen und den Ort (Location) eures Projekts zu ändern damit ihr es später wieder findet. </p><div class="image">
+<img src="projekt_erstellen_2.png" alt="projekt_erstellen_2.png"/>
+</div>
+<h2>Fuses setzen und Bootloader hochladen</h2>
+<p>Unter Tools-&gt;Device Programming habt ihr die Möglichkeit, euren Programmer direkt zu steuern. </p><div class="image">
+<img src="fuses.png" alt="fuses.png"/>
+</div>
+<p> Dazu wählt ihr euren Programmer und den verwendeten AVR (Atmega32) aus und drückt Apply. </p><div class="image">
+<img src="fuses2.png" alt="fuses2.png"/>
+</div>
+<p> Falls hier ein Fehler auftritt überprüft ob euer Goldboard richtig angeschlossen ist und unter Strom steht. Außerdem kann es vorkommen, dass der Treiber nicht richtig installiert wurde.</p>
+<p>Zum setzen der Fuse Bits schreibt folgende Hex Zahlen in die Felder für Low Byte und High Byte und drückt Programm!</p>
 <ul>
-<li><a class="el" href="md_README_AS7.html">Atmel Studio 7 Anleitung</a> (<a href="https://github.com/teeheee/goldboard4/raw/master/goldboard4-V2.2-AS7-template.zip">Download AS7 Template</a>)</li>
-<li><a class="el" href="md_README_ATOM.html">Atom mit PlatformIO Anleitung</a> (<a href="https://github.com/teeheee/goldboard4/raw/master/goldboard4-V2.2-AtomPio-template.zip">Download Atom Template</a>)</li>
-<li><a class="el" href="md_README_MAKE.html">Makefile Anleitung</a></li>
+<li>Low Byte: 0xFF</li>
+<li>High Byte: 0xD4</li>
 </ul>
-<h2>Windows Treiber</h2>
-<p>Normalerweise sollte der in Atmelstudio mitgelieferte Treiber ausreichen.</p>
-<ul>
-<li><a href="https://www.microchip.com/mplab/avr-support/atmel-studio-7">Atmelstudio 7</a></li>
-<li><a href="https://zadig.akeo.ie/">Zadig Treiber installations Tool</a></li>
-<li><a href="https://www.ftdichip.com/Drivers/VCP.htm">FTDI für Serialport</a></li>
-</ul>
-<h2>TODO</h2>
-<ul>
-<li>full test<ul>
-<li>~motors~</li>
-<li>servos</li>
-<li>~pwmpins~</li>
-<li>~digitalpins~</li>
-<li>~analogpins~</li>
-<li>~buttons~</li>
-<li>~leds~</li>
-<li>robot-&gt;bluetooth-&gt;pc</li>
-<li>robot-&gt;bluetooth-&gt;robot</li>
-<li>~power pins~</li>
-<li><a class="el" href="classCMPS11.html" title="CMPS11 sensor Klasse. Es kann nur ein Sensor (ein Objekt) pro Roboter verwendet werden. ">CMPS11</a></li>
-<li>~CMPS03~</li>
-<li>~SRF08~</li>
-<li>SRF10</li>
-<li><a class="el" href="classVL53L0X.html">VL53L0X</a></li>
-<li>~pixy~</li>
-<li>~usring~</li>
-<li>~lcd~</li>
-</ul>
-</li>
-<li>make clean doxygen comments</li>
-<li>upgrade servo PWM to every pin</li>
-<li>check race condition on interrupts</li>
-<li>add i2c hang up recovery </li>
-</ul>
+<div class="image">
+<img src="fuses3.png" alt="fuses3.png"/>
+</div>
+<p>Um den Bootloader hochzuladen wählt die in eurem projekt enthaltene datei bootloader_mega32_optiboot.hex aus. Diese findet ihr in dem Ordner utils. Durch drücken von program ladet ihr den Bootloader hoch. Wenn keine Fehler auftreten, sollte die Led am Goldboard blinken.</p>
+<div class="image">
+<img src="bootloader.png" alt="bootloader.png"/>
+</div>
+<h2>Programmer für Bootloader konfigurieren</h2>
+<p>zum Hochladen über usb müsst ihr euren Programmer wie folgt konfigurieren. Kopiert folgende Zeile in das Command Feld:</p>
+<div class="image">
+<img src="bootloader_einstellungen.png" alt="bootloader_einstellungen.png"/>
+</div>
+<p>&gt;"$(MSBuildProjectDirectory)\utils\avrdude\avrdude.exe" -c arduino -p m32 -P com5 -b 115200 -U flash:w:"$(OutputDirectory)\$(OutputFileName).hex":i</p>
+<p>Je nachdem unter welchem COM-Port euer Goldboard erkannt wird, müsst ihr "com5" in z.B. "com3" ändern. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
