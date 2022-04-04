@@ -32,17 +32,22 @@ In this experiment I did not clean the microscope slide.
 Sensitize slide with **D1** for 30 seconds. Then add 5 drops of **A1** and **B1** simultaniously.
 This was the result:
 
-![](https://raw.githubusercontent.com/teeheee/teeheee.github.io/master/_images/20220404/DSC01289.JPG)
+![](/_images/20220404/DSC01289.JPG)
 
 Skip sensitizing. Then add 5 drops of **A1** and **B1** simultaniously.
 This was the result:
 
-![](https://raw.githubusercontent.com/teeheee/teeheee.github.io/master/_images/20220404/DSC01291.JPG)
+![](/_images/20220404/DSC01291.JPG)
 
 Sensitize slide with **D1** for 30 seconds and put the slide in a bath of **A1** and **B1** mixed.
 This was the result:
 
-![](https://raw.githubusercontent.com/teeheee/teeheee.github.io/master/_images/20220404/DSC01290.JPG)
+![](/_images/20220404/DSC01290.JPG)
+
+It is important to sensitize with Sn2Cl. Otherwise the silver does not adher to the glass. This is described in many processes. But I was curiouse because [wikipedia](https://en.wikipedia.org/wiki/Tollens%27_reagent) states Sn2Cl should not be used.
+
+Also the solution is not good for bathing. It is better to spray or drop with pipett.
 
 ### References
+
 
