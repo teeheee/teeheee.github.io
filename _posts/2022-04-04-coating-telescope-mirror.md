@@ -32,7 +32,7 @@ In this experiment I did not clean the microscope slide.
 Sensitize slide with **D1** for 30 seconds. Then add 5 drops of **A1** and **B1** simultaniously.
 This was the result:
 
-![](https://raw.githubusercontent.com/teeheee/teeheee.github.io/master/_images/20220404/DSC01289.png)
+![](https://raw.githubusercontent.com/teeheee/teeheee.github.io/master/_images/20220404/DSC01289.JPG)
 
 Skip sensitizing. Then add 5 drops of **A1** and **B1** simultaniously.
 This was the result:
@@ -42,7 +42,7 @@ This was the result:
 Sensitize slide with **D1** for 30 seconds and put the slide in a bath of **A1** and **B1** mixed.
 This was the result:
 
-![](https://raw.githubusercontent.com/teeheee/teeheee.github.io/master/_images/20220404/DSC01290.png)
+![](https://raw.githubusercontent.com/teeheee/teeheee.github.io/master/_images/20220404/DSC01290.JPG)
 
 ### References
 
