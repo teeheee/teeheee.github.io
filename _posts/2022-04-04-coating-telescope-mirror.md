@@ -20,7 +20,7 @@ For the coating the following chemicals are used:
 
 ### Experiments
 
-### Experiment 1 from 25.1.2022
+### Experiment 1
 
 1. prepare sensitizer solution **D1**: 0,08 g Sn2Cl in 50 ml H2O
 2. prepare silve solution **A1**: 100 ml 0,06 mol/l AgNO3 + 0,42 NaOH
@@ -32,21 +32,37 @@ In this experiment I did not clean the microscope slide.
 Sensitize slide with **D1** for 30 seconds. Then add 5 drops of **A1** and **B1** simultaniously.
 This was the result:
 
-![Test1](/_images/20220404/DSC01289.JPG)
+![Test1](/img/20220404/DSC01289.JPG)
 
 Skip sensitizing. Then add 5 drops of **A1** and **B1** simultaniously.
 This was the result:
 
-![Test2](/_images/20220404/DSC01291.JPG)
+![Test2](/img/20220404/DSC01291.JPG)
 
 Sensitize slide with **D1** for 30 seconds and put the slide in a bath of **A1** and **B1** mixed.
 This was the result:
 
-![Test3](/_images/20220404/DSC01290.JPG)
+![Test3](/img/20220404/DSC01290.JPG)
 
 It is important to sensitize with Sn2Cl. Otherwise the silver does not adher to the glass. This is described in many processes. But I was curiouse because [wikipedia](https://en.wikipedia.org/wiki/Tollens%27_reagent) states Sn2Cl should not be used.
 
 Also the solution is not good for bathing. It is better to spray or drop with pipett.
+
+### Experiment 2
+
+following the basic principale of "more is always better" I tested double the concentration of Experiment 1.
+This was the result:
+![Test4](/img/20220404/DSC01292.JPG)
+
+It seems that increasing concentration had negative effect on silver adhesion.
+But I am not sure if skipping the step of cleaning was the problem
+
+### Experiment 3
+
+In this test I tried to follow the process of cleaning and spray coating of the microscope slide with the same concentrations like in Experiement 1.
+
+This was the result:
+![Test4](/img/20220404/DSC01293.JPG)
 
 ### References
 
