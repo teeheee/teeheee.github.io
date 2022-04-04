@@ -1,9 +1,0 @@
-digraph "Interne Komponenten"
-{
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  rankdir=LR;
-  Node1 [label="Externe Komponenten",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__external.html"];
-  Node0 [label="Interne Komponenten",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-  Node0->Node1 [shape=plaintext, label="PCF8574A.h", color="darkgreen", dir="none", style="dashed"];
-}
