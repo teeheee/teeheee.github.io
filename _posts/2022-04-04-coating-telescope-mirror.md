@@ -20,26 +20,28 @@ For the coating the following chemicals are used:
 
 ### Experiments
 
+The following experiments were conducted to find the best method and describe how I decided what to do next.
+
 ### Experiment 1
 
-1. prepare sensitizer solution **D1**: 0,08 g Sn2Cl in 50 ml H2O
-2. prepare silve solution **A1**: 100 ml 0,06 mol/l AgNO3 + 0,42 NaOH
-3. add 5 drops of Amonia to **A1** to make it clear again
-4. prepare reducer solution **B1**: 1 drop of Formaldehyd to 100 ml H2O
+1. prepare sensitizer solution **D**: 0,08 g Sn2Cl in 50 ml H2O
+2. prepare silve solution **A**: 100 ml 0,06 mol/l AgNO3 + 0,42 NaOH
+3. add 5 drops of Amonia to **A** to make it clear again
+4. prepare reducer solution **C**: 1 drop of Formaldehyd to 100 ml H2O
  
 In this experiment I did not clean the microscope slide.
 
-Sensitize slide with **D1** for 30 seconds. Then add 5 drops of **A1** and **B1** simultaniously.
+Sensitize slide with **D** for 30 seconds. Then add 5 drops of **A** and **C** simultaniously.
 This was the result:
 
 ![Test1](/img/20220404/DSC01289.JPG)
 
-Skip sensitizing. Then add 5 drops of **A1** and **B1** simultaniously.
+Skip sensitizing. Then add 5 drops of **A** and **C** simultaniously.
 This was the result:
 
 ![Test2](/img/20220404/DSC01291.JPG)
 
-Sensitize slide with **D1** for 30 seconds and put the slide in a bath of **A1** and **B1** mixed.
+Sensitize slide with **D** for 30 seconds and put the slide in a bath of **A** and **C** mixed.
 This was the result:
 
 ![Test3](/img/20220404/DSC01290.JPG)
@@ -63,6 +65,37 @@ In this test I tried to follow the process of cleaning and spray coating of the 
 
 This was the result:
 ![Test4](/img/20220404/DSC01293.JPG)
+
+It seems like the process is not the cause of my failures. I need to get the concentration right.
+
+### Experiment 4
+
+Since experiment 2 was the worst up until now I desided to use the solution from experiment 1 and dilute it in 3 steps from 100 % to 50 %, 25 % and 12,5 %. 
+
+100 % solution was prepared the following way:
+
+... TODO
+
+Result for 100% concentrate:
+![Test4](/img/20220404/DSC01284.JPG)
+
+Result for 50% concentrate:
+![Test4](/img/20220404/DSC01285.JPG)
+
+Result for 25% concentrate:
+![Test4](/img/20220404/DSC01286.JPG)
+
+Result for 12,5% concentrate:
+![Test4](/img/20220404/DSC01287.JPG)
+
+I also tried combining 100 % solution A+B with 12,5 % solution C:
+![Test4](/img/20220404/DSC01288.JPG)
+
+It is not that obviouse in the image but the 50 % solution had the best result. The 50 % coating was also the only one that could not be whiped away with a q-tip.
+
+### Experiment 5
+
+TODO test ration of A to B. 
 
 ### References
 
