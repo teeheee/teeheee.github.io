@@ -10,7 +10,7 @@ For the coating the following chemicals are used:
 
 * 1 l ammonia 25%: this is too much. Better use less concentrated solution
 * 100 g Sn2Cl: also too much, but it is cheap and 100g can be stored easy
-* 1 l Formaldehyd 37%: this is way too much. Better use less concentrated solution
+* 1 l Formaldehyde 37%: this is way too much. Better use less concentrated solution
 * 1 kg Calcium Carbonate: you need quite a lot for cleaning large surfaces
 * 10 g silver nitrate: some say you need around 5 g for an 8" mirror.
 * a lot of distilled water from the supermarket
@@ -26,7 +26,7 @@ The following experiments were conducted to find the best method and describe ho
 1. prepare sensitizer solution **D**: 0,08 g Sn2Cl in 50 ml H2O
 2. prepare silver solution **A**: 100 ml 0,06 mol/l AgNO3 + 0,42 NaOH
 3. add 5 drops of ammonia to **A** to make it clear again
-4. prepare reducer solution **C**: 1 drop of Formaldehyd to 100 ml H2O
+4. prepare reducer solution **C**: 1 drop of Formaldehyde to 100 ml H2O
  
 In this experiment I did not clean the microscope slide.
 
