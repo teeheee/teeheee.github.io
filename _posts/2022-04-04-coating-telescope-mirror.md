@@ -73,7 +73,17 @@ Since experiment 2 was the worst up until now I decided to use the solution from
 
 100 % solution was prepared the following way:
 
-... TODO
+A: 50 ml H2O + 0,846 ml Ammonia + 0,53 g AgNO3
+B: 50 ml H2O + 0,436 g NaOH
+C: 100 ml H2O + 0,105 ml Formaldehyde 
+
+Mix A+B -> solution got dark
+
+Add more Ammonia till solution got clear again. Additional 0,45 ml Ammonia was added.
+A+B contained a total of 1,296 ml Ammonia.
+
+The following tests 50 ml of A+B and 50 ml of C was used. The remaining solution was diluted with 50 ml H2O for the next test.
+This lead to 100%, 50%, 25% and 12,5% concentration test.
 
 Result for 100% concentrate:
 ![Test4](/img/20220404/DSC01284.JPG)
@@ -90,11 +100,34 @@ Result for 12,5% concentrate:
 I also tried combining 100 % solution A+B with 12,5 % solution C:
 ![Test4](/img/20220404/DSC01288.JPG)
 
-It is not that obvious in the image but the 50 % solution had the best result. The 50 % coating was also the only one that could not be wiped away with a q-tip.
+It is not very obvious in the image, but the 50 % solution had the best result. The 50 % coating was also the only one that could not be wiped away with a q-tip and that was not transparent.
 
 ### Experiment 5
 
-TODO test ratio of A to B. 
+For the following test I want to try:
+
+ test ratio of A to B with less concentration of B. 
+ test ratio A+B to C with less concentration of C.
+
+For this I need to mix 200 ml of 50% A,B and C
+
+A: 200 ml H2O + 1,06 g AgNO3 + enough ml Ammonia 
+B: 200 ml H2O + 0,872 g NaOH
+C: 200 ml H2O + 0,105 ml Formaldehyde 
+
+
+A+B 1/1: 50 ml A + 50 ml B + enough ml Ammonia 
+A+B 1/2: 50 ml A + 25 ml B + 25 ml H2O + enough ml Ammonia 
+A+B 1/4: 50 ml A + 12 ml B + 38 ml H2O + enough ml Ammonia 
+
+C 1/1: 100 ml C
+C 1/2: 50 ml C 50 ml H2O
+C 1/4: 25 ml C 75 ml H2O
+
+### Experiment 6
+
+try heat up glass substrate for better adhesion.
+use minimal less Ammonia
 
 ### References
 
